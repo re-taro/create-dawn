@@ -1,0 +1,31 @@
+name: Release
+description: Release a new npm package
+inputs:
+  npm-token:
+    description: npm token
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: Install pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: latest
+    - name: Set node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: pnpm
+    - name: Install
+      shell: sh
+      run: pnpm install --frozen-lockfile
+    - name: Build
+      shell: sh
+      run: pnpm run build
+    - name: Publish to npm
+      run: |
+        pnpm config set //registry.npmjs.org/:_authToken ${{ inputs.npm-token }}
+        pnpm publish --access public --no-git-checks
+      shell: sh
+      env:
+        NODE_AUTH_TOKEN: ${{ inputs.npm-token }}
