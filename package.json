@@ -38,6 +38,7 @@
   "scripts": {
     "dev": "unbuild --stub",
     "build": "unbuild",
+    "test": "vitest run",
     "fmt:fix": "prettier -w . && eslint --fix .",
     "typecheck": "tsc --noEmit"
   },
