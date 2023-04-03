@@ -1,5 +1,5 @@
 {
-  "name": "create-dawn",
+  "name": "@re-taro/create-dawn",
   "description": "Create any web app you want",
   "type": "module",
   "version": "1.0.0",
