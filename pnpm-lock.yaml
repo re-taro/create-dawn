@@ -4,9 +4,15 @@ devDependencies:
   '@re-taro/eslint-config':
     specifier: 1.6.6
     version: 1.6.6(eslint@8.37.0)(typescript@5.0.3)
+  '@types/minimist':
+    specifier: 1.2.2
+    version: 1.2.2
   '@types/node':
     specifier: 18.15.11
     version: 18.15.11
+  '@types/prompts':
+    specifier: 2.4.4
+    version: 2.4.4
   cross-spawn:
     specifier: 7.0.3
     version: 7.0.3
@@ -749,12 +755,23 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
+  /@types/minimist@1.2.2:
+    resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
+    dev: true
+
   /@types/node@18.15.11:
     resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
+    dev: true
+
+  /@types/prompts@2.4.4:
+    resolution: {integrity: sha512-p5N9uoTH76lLvSAaYSZtBCdEXzpOOufsRjnhjVSrZGXikVGHX9+cc9ERtHRV4hvBKHyZb1bg4K+56Bd2TqUn4A==}
+    dependencies:
+      '@types/node': 18.15.11
+      kleur: 3.0.3
     dev: true
 
   /@types/resolve@1.20.2:
