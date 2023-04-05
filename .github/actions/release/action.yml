@@ -21,7 +21,7 @@ runs:
       run: pnpm install --frozen-lockfile
     - name: Build
       shell: sh
-      run: pnpm run build
+      run: pnpm build
     - name: Publish to npm
       run: |
         pnpm config set //registry.npmjs.org/:_authToken ${{ inputs.npm-token }}
