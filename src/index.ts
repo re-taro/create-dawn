@@ -41,22 +41,22 @@ const frameworks = [
     color: cyan,
     variants: [
       {
-        name: 'emotion',
+        name: 'react-emotion',
         display: 'Emotion',
         color: lightMagenta,
       },
       {
-        name: 'vanilla-extract',
+        name: 'react-vanilla-extract',
         display: 'vanilla-extract',
         color: lightCyan,
       },
       {
-        name: 'ecsstatic',
+        name: 'react-ecsstatic',
         display: 'ecsstatic',
         color: lightRed,
       },
       {
-        name: 'chakra-ui',
+        name: 'react-chakra-ui',
         display: 'Chakra UI',
         color: lightGreen,
       },
@@ -68,22 +68,22 @@ const frameworks = [
     color: cyan,
     variants: [
       {
-        name: 'emotion',
+        name: 'react-bff-emotion',
         display: 'Emotion',
         color: lightMagenta,
       },
       {
-        name: 'vanilla-extract',
+        name: 'react-bff-vanilla-extract',
         display: 'vanilla-extract',
         color: lightCyan,
       },
       {
-        name: 'ecsstatic',
+        name: 'react-bff-ecsstatic',
         display: 'ecsstatic',
         color: lightRed,
       },
       {
-        name: 'chakra-ui',
+        name: 'react-bff-chakra-ui',
         display: 'Chakra UI',
         color: lightGreen,
       },
@@ -95,22 +95,22 @@ const frameworks = [
     color: magenta,
     variants: [
       {
-        name: 'emotion',
+        name: 'preact-emotion',
         display: 'Emotion',
         color: lightMagenta,
       },
       {
-        name: 'vanilla-extract',
+        name: 'preact-vanilla-extract',
         display: 'vanilla-extract',
         color: lightCyan,
       },
       {
-        name: 'ecsstatic',
+        name: 'preact-ecsstatic',
         display: 'ecsstatic',
         color: lightRed,
       },
       {
-        name: 'chakra-ui',
+        name: 'preact-chakra-ui',
         display: 'Chakra UI',
         color: lightGreen,
       },
@@ -122,22 +122,22 @@ const frameworks = [
     color: magenta,
     variants: [
       {
-        name: 'emotion',
+        name: 'preact--bff-emotion',
         display: 'Emotion',
         color: lightMagenta,
       },
       {
-        name: 'vanilla-extract',
+        name: 'preact--bff-vanilla-extract',
         display: 'vanilla-extract',
         color: lightCyan,
       },
       {
-        name: 'ecsstatic',
+        name: 'preact--bff-ecsstatic',
         display: 'ecsstatic',
         color: lightRed,
       },
       {
-        name: 'chakra-ui',
+        name: 'preact--bff-chakra-ui',
         display: 'Chakra UI',
         color: lightGreen,
       },
@@ -149,22 +149,22 @@ const frameworks = [
     color: gray,
     variants: [
       {
-        name: 'emotion',
+        name: 'next-emotion',
         display: 'Emotion',
         color: lightMagenta,
       },
       {
-        name: 'vanilla-extract',
+        name: 'next-vanilla-extract',
         display: 'vanilla-extract',
         color: lightCyan,
       },
       {
-        name: 'ecsstatic',
+        name: 'next-ecsstatic',
         display: 'ecsstatic',
         color: lightRed,
       },
       {
-        name: 'chakra-ui',
+        name: 'next-chakra-ui',
         display: 'Chakra UI',
         color: lightGreen,
       },
@@ -176,7 +176,7 @@ const frameworks = [
     color: gray,
     variants: [
       {
-        name: 'css-modules',
+        name: 'next-app-css-modules',
         display: 'CSS Modules',
         color: yellow,
       },
