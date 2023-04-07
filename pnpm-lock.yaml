@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@re-taro/eslint-config':
-    specifier: 1.6.7
-    version: 1.6.7(eslint@8.37.0)(typescript@5.0.3)
+    specifier: 1.6.8
+    version: 1.6.8(eslint@8.37.0)(typescript@5.0.3)
   '@types/fs-extra':
     specifier: 11.0.1
     version: 11.0.1
@@ -560,8 +560,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@next/eslint-plugin-next@13.2.4:
-    resolution: {integrity: sha512-ck1lI+7r1mMJpqLNa3LJ5pxCfOB1lfJncKmRJeJxcJqcngaFwylreLP7da6Rrjr6u2gVRTfmnkSkjc80IiQCwQ==}
+  /@next/eslint-plugin-next@13.3.0:
+    resolution: {integrity: sha512-wuGN5qSEjSgcq9fVkH0Y/qIPFjnZtW3ZPwfjJOn7l/rrf6y8J24h/lo61kwqunTyzZJm/ETGfGVU9PUs8cnzEA==}
     dependencies:
       glob: 7.1.7
     dev: true
@@ -599,12 +599,12 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@re-taro/eslint-config@1.6.7(eslint@8.37.0)(typescript@5.0.3):
-    resolution: {integrity: sha512-oEDOCeJMIuf/xBXiIOYIUxwi8y24/LbC7zLeaxMI1ks+LebT/rbacCbF33Z19/QQd1wV+56r3BPl223pqMUE/g==}
+  /@re-taro/eslint-config@1.6.8(eslint@8.37.0)(typescript@5.0.3):
+    resolution: {integrity: sha512-ps3eX3ogQZa61vqBEKOBo0fTiu2a0+0Mcnn8jrf0ORmo1uJFqQKcoehXY68Fkic4+6i6hKo1Vl9EKuDu9tSCKA==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
-      '@re-taro/eslint-plugin': 1.6.7(eslint@8.37.0)(typescript@5.0.3)
+      '@re-taro/eslint-plugin': 1.6.8(eslint@8.37.0)(typescript@5.0.3)
       eslint: 8.37.0
     transitivePeerDependencies:
       - eslint-import-resolver-node
@@ -613,12 +613,12 @@ packages:
       - typescript
     dev: true
 
-  /@re-taro/eslint-plugin@1.6.7(eslint@8.37.0)(typescript@5.0.3):
-    resolution: {integrity: sha512-VRNsk+msB0dwjjAWWl2HOP2kp6Y99Otj49L8Rhx/qTSJaZIxOJN/vYv01gr+bd8tari28tCeZ0a/W0HqjuX1hQ==}
+  /@re-taro/eslint-plugin@1.6.8(eslint@8.37.0)(typescript@5.0.3):
+    resolution: {integrity: sha512-PgqLHG9zqY/9GfuvplDTvpgJIVrYkylUz7Y7ZFs4pRWiBoP/ckO3K/lV3gqI218by0qISHYULeqSFS6QTadLvw==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
-      '@next/eslint-plugin-next': 13.2.4
+      '@next/eslint-plugin-next': 13.3.0
       '@typescript-eslint/eslint-plugin': 5.57.1(@typescript-eslint/parser@5.57.1)(eslint@8.37.0)(typescript@5.0.3)
       '@typescript-eslint/parser': 5.57.1(eslint@8.37.0)(typescript@5.0.3)
       eslint: 8.37.0
