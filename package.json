@@ -43,7 +43,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@re-taro/eslint-config": "1.9.9",
+    "@re-taro/eslint-config": "1.9.10",
     "@types/fs-extra": "11.0.1",
     "@types/minimist": "1.2.2",
     "@types/node": "18.16.18",
