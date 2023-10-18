@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@re-taro/eslint-config": "1.10.3",
-    "@types/fs-extra": "11.0.2",
+    "@types/fs-extra": "11.0.3",
     "@types/minimist": "1.2.4",
     "@types/node": "18.18.6",
     "@types/prompts": "2.4.6",
