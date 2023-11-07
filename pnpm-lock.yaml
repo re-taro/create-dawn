@@ -9,8 +9,8 @@ devDependencies:
     specifier: 2.2.0
     version: 2.2.0(eslint-plugin-import@2.28.1)(eslint@8.53.0)(prettier@3.0.3)(svelte@4.2.2)(typescript@5.2.2)(vitest@0.34.6)
   '@types/fs-extra':
-    specifier: 11.0.3
-    version: 11.0.3
+    specifier: 11.0.4
+    version: 11.0.4
   '@types/minimist':
     specifier: 1.2.5
     version: 1.2.5
@@ -1337,8 +1337,8 @@ packages:
     resolution: {integrity: sha512-CS2rOaoQ/eAgAfcTfq6amKG7bsN+EMcgGY4FAFQdvSj2y1ixvOZTUA9mOtCai7E1SYu283XNw7urKK30nP3wkQ==}
     dev: true
 
-  /@types/fs-extra@11.0.3:
-    resolution: {integrity: sha512-sF59BlXtUdzEAL1u0MSvuzWd7PdZvZEtnaVkzX5mjpdWTJ8brG0jUqve3jPCzSzvAKKMHTG8F8o/WMQLtleZdQ==}
+  /@types/fs-extra@11.0.4:
+    resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
     dependencies:
       '@types/jsonfile': 6.1.1
       '@types/node': 18.18.8
