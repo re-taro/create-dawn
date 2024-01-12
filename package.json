@@ -54,7 +54,7 @@
     "fs-extra": "11.2.0",
     "kolorist": "1.8.0",
     "minimist": "1.2.8",
-    "prettier": "3.1.1",
+    "prettier": "3.2.1",
     "prompts": "2.4.2",
     "typescript": "5.3.3",
     "unbuild": "2.0.0",
